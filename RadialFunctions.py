@@ -95,9 +95,7 @@ def R_75(r):
 def R_76(r):
     return 4*numpy.sqrt(3003)*r**6*numpy.exp(-r/7)/779026383135
 
-other= [R_20,R_30, R_40]
-K= other[1]
-print(K(4))
+
 #pyplot.figure()
 #pyplot.xlabel('r/a_0')
 #pyplot.ylabel('Wavefunction Rnl')
